@@ -1,15 +1,15 @@
 let userName = prompt("Введіть ваше ім'я:");
 document.querySelector("h2").textContent = `${userName} vs Комп’ютер`;
 const cards = [
-    { value: 6, img: "6.jpg" },
-    { value: 7, img: "7.jpg" },
-    { value: 8, img: "8.jpg" },
-    { value: 9, img: "9.jpg" },
-    { value: 10, img: "10.jpg" },
-    { value: 2, img: "valet.jpg" },
-    { value: 3, img: "dama.jpg" },
-    { value: 4, img: "korol.jpg" },
-    { value: 11, img: "tuz.jpg" }
+    { value: 6, img: "6.JPG" },
+    { value: 7, img: "7.JPG" },
+    { value: 8, img: "8.JPG" },
+    { value: 9, img: "9.JPG" },
+    { value: 10, img: "10.JPG" },
+    { value: 2, img: "valet.JPG" },
+    { value: 3, img: "dama.JPG" },
+    { value: 4, img: "korol.JPG" },
+    { value: 11, img: "tuz.JPG" }
 ];
 
 let userScore = 0;
@@ -36,4 +36,5 @@ document.getElementById("generate").addEventListener("click", () => {
       else result = "Нічия!";
       document.getElementById("result").textContent = result;
     }
+
   });
