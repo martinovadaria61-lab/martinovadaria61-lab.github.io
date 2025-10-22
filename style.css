@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  #e6b3ff;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+.scores {
+    display: flex;
+    justify-content: space-around;
+}
+.score-box {
+    background: #c44dff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    min-width: 100px;
+ }
+#generate {
+    background: #9900e6 ;
+    color: white;
+    font-size: 20px;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: 0.3s;
+}
+
+#generate:hover { background: #7700b3; }
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+.card img {
+    width: 130px;
+    border-radius: 8px;
+}
